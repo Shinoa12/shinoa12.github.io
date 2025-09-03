@@ -2,29 +2,36 @@
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "title": "First time blogging",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "This is my first time blogging, I’ve never tried this before.\n\nI’ve never really been the kind of person to keep track of what I do—I usually just go for it and store it in my head.\nBut after thinking it over (and with a little nudge), I figured why not start a small blog? I’ll drop by here now and then to keep it fresh."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "main_blog",
+    "title": "Posts",
     "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nSep 2, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nAug 30, 2025\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+    "text": "Scratch to Scale: Daily Notes\n\n\n\nArtificial Intelligence\n\nMachine Learning\n\nParallelism\n\nUpdates\n\n\n\n\n\n\n\n\n\nSep 2, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nFirst time blogging\n\n\n\nPersonal\n\nUpdates\n\nReflections\n\n\n\n\n\n\n\n\n\nSep 2, 2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "About this blog"
+    "text": "Hi, I’m Bruno del Río — an AI/ML engineer passionate about building practical, scalable AI solutions.\nI specialize in LLM-based applications, Retrieval-Augmented Generation (RAG) pipelines, and cloud-native architectures, with hands-on experience in Python, FastAPI, and AWS. Over the past years, I’ve worked on projects ranging from multi-agent chatbots to sales forecasting systems, bridging the gap between technical teams and business goals.\nI’m also part of the AI Research Group at Pontificia Universidad Católica del Perú, where I explore vector search, prompt engineering, and large-scale machine learning services.\nThis blog is where I share my learning journey — from experiments with new tools to reflections on AI projects and research.\n\n\n\n\n\n\nNoneFun Fact\n\n\n\n\n\nThe one in my profile picture isn’t me — it’s Po, my dog."
   },
   {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "title": "Scratch to Scale: Daily Notes",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "Today I started a new AI course with Zach Mueller:\n“Scratch to Scale: Large-Scale Training in the Modern World”.\nThe course focuses on efficient training techniques for LLMs—particularly parallelism—and how these concepts apply to broader machine learning workflows.\nI’ll be updating this post daily with what I learn and my progress along the way."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#day-1-september-2nd-2025",
+    "href": "posts/post-with-code/index.html#day-1-september-2nd-2025",
+    "title": "Scratch to Scale: Daily Notes",
+    "section": "Day 1 — September 2nd, 2025",
+    "text": "Day 1 — September 2nd, 2025\nThe first day began with an introduction to the course, its contents, and what we will be covering throughout the week.\nZach introduced a Python library he developed called nbdistributed, link to Zach’s repository. This tool helps illustrate how parallelism works in Jupyter Notebooks, making it easier to experiment and see results in real time.\nDuring the second half of the class, we discussed the capstone project and the role of blogging in this course. The capstone will involve training a model—such as Qwen or LLaMA—on a topic of our choice. I’m not entirely sure what direction I’ll take yet, but I’m confident an idea will come to mind soon.\nTo support this, Zach encouraged us to document our journey through a blog. He introduced Quarto as a tool for creating these posts and explained its benefits for structuring and sharing our progress.\nOverall, it was a solid introduction that set the stage for the week ahead."
   }
 ]
