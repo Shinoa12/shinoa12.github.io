@@ -1,12 +1,18 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
-date: "2025-08-30"
-categories: [news]
+title: "First time blogging"
+#author: "Bruno del Río"
+date: "2025-09-02"
+categories: [Personal, Updates, Reflections]
 ---
 
-This is the first post in a Quarto blog. Welcome!
+
+
+This is my first time blogging, I've never tried this before.
 
 ![](thumbnail.jpg)
 
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+I’ve never really been the kind of person to keep track of what I do—I usually just go for it and store it in my head.
+
+But after thinking it over (and with a little nudge), I figured why not start a small blog? I’ll drop by here now and then to keep it fresh.
+
+

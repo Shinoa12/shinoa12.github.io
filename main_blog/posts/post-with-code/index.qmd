@@ -1,9 +1,30 @@
 ---
-title: "Post With Code"
-author: "Harlow Malloc"
+title: "Scratch to Scale: Daily Notes"
+#author: "Harlow Malloc"
 date: "2025-09-02"
-categories: [news, code, analysis]
+date-modified: "2025-09-02"
+categories: [Artificial Intelligence, Machine Learning, Parallelism, Updates]
+toc: true
 image: "image.jpg"
 ---
 
-This is a post with executable code.
+Today I started a new AI course with Zach Mueller:  
+*"Scratch to Scale: Large-Scale Training in the Modern World"*.
+
+The course focuses on efficient training techniques for LLMs—particularly parallelism—and how these concepts apply to broader machine learning workflows. 
+
+I’ll be updating this post daily with what I learn and my progress along the way.
+
+---
+
+## Day 1 — September 2nd, 2025
+
+The first day began with an introduction to the course, its contents, and what we will be covering throughout the week.
+
+Zach introduced a Python library he developed called ```nbdistributed```, [link to Zach's repository](https://github.com/muellerzr/nbdistributed). This tool helps illustrate how parallelism works in Jupyter Notebooks, making it easier to experiment and see results in real time.
+
+During the second half of the class, we discussed the capstone project and the role of blogging in this course. The capstone will involve training a model—such as Qwen or LLaMA—on a topic of our choice. I’m not entirely sure what direction I’ll take yet, but I’m confident an idea will come to mind soon.
+
+To support this, Zach encouraged us to document our journey through a blog. He introduced **Quarto** as a tool for creating these posts and explained its benefits for structuring and sharing our progress.
+
+Overall, it was a solid introduction that set the stage for the week ahead.
