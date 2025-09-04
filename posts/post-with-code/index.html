@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.22">
+<meta name="generator" content="quarto-1.8.23">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -38,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-cd7454b418030687c631a6a7286fbe16.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-1fe81d0376b2c50856e68e651e390326.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-cc1d64809b8ed731f92ea1275fe9f05b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-26827f95213357c060b998e0666f8ebe.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -158,6 +158,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#day-1-september-2nd-2025" id="toc-day-1-september-2nd-2025" class="nav-link active" data-scroll-target="#day-1-september-2nd-2025">Day 1 — September 2nd, 2025</a></li>
+  <li><a href="#day-2---september-3rd-2025" id="toc-day-2---september-3rd-2025" class="nav-link" data-scroll-target="#day-2---september-3rd-2025">Day 2 - September 3rd, 2025</a></li>
   </ul>
 </nav>
     </div>
@@ -180,6 +181,12 @@ ul.task-list li input[type="checkbox"] {
 <p>During the second half of the class, we discussed the capstone project and the role of blogging in this course. The capstone will involve training a model—such as Qwen or LLaMA—on a topic of our choice. I’m not entirely sure what direction I’ll take yet, but I’m confident an idea will come to mind soon.</p>
 <p>To support this, Zach encouraged us to document our journey through a blog. He introduced <strong>Quarto</strong> as a tool for creating these posts and explained its benefits for structuring and sharing our progress.</p>
 <p>Overall, it was a solid introduction that set the stage for the week ahead.</p>
+</section>
+<section id="day-2---september-3rd-2025" class="level2">
+<h2 class="anchored" data-anchor-id="day-2---september-3rd-2025">Day 2 - September 3rd, 2025</h2>
+<p>Today wasn’t exactly a lesson; instead, we attended a fascinating conference with <a href="https://yuxiang.cs.illinois.edu/">Yuxiang Wei</a>, a PhD candidate at UIUC’s Computer Science department and part-time researcher at Meta FAIR.</p>
+<p>Mr.&nbsp;Wei works on training large language models for code, applying techniques like synthetic data and reinforcement learning across pretraining, midtraining, and posttraining phases.</p>
+<p>During the session, he answered a wide range of our questions. I have to admit—it was a bit hard to keep up with all the terminology and advanced tech he was diving into. So, I plan to review more advanced AI concepts to help me catch up with my peers.</p>
 
 
 </section>
@@ -236,13 +243,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
