@@ -1,6 +1,6 @@
 ---
 title: "Scratch to Scale: Daily Notes"
-#author: "Harlow Malloc"
+#author: "Bruno del Río"
 date: "2025-09-02"
 date-modified: "2025-09-02"
 categories: [Artificial Intelligence, Machine Learning, Parallelism, Updates]
@@ -28,3 +28,11 @@ During the second half of the class, we discussed the capstone project and the r
 To support this, Zach encouraged us to document our journey through a blog. He introduced **Quarto** as a tool for creating these posts and explained its benefits for structuring and sharing our progress.
 
 Overall, it was a solid introduction that set the stage for the week ahead.
+
+## Day 2 - September 3rd, 2025
+
+Today wasn’t exactly a lesson; instead, we attended a fascinating conference with [Yuxiang Wei](https://yuxiang.cs.illinois.edu/), a PhD candidate at UIUC’s Computer Science department and part-time researcher at Meta FAIR.
+
+Mr. Wei works on training large language models for code, applying techniques like synthetic data and reinforcement learning across pretraining, midtraining, and posttraining phases.
+
+During the session, he answered a wide range of our questions. I have to admit—it was a bit hard to keep up with all the terminology and advanced tech he was diving into. So, I plan to review more advanced AI concepts to help me catch up with my peers.
